@@ -1,11 +1,11 @@
 public class Perfil {
     public int id;
-    public Strig image;
+    public String image;
     public String phone;
     public String user;
     public date createdAt;
     public date UpdatedAt;
-    public Perfil(int id, Strig image, String phone, String user, date createdAt, date updatedAt) {
+    public Perfil(int id, String image, String phone, String user, date createdAt, date updatedAt) {
         this.id = id;
         this.image = image;
         this.phone = phone;
@@ -24,7 +24,7 @@ public class Perfil {
         this.id = id;
     }
 
-    public Strig getImage() {
+    public String getImage() {
         return image;
     }
 
