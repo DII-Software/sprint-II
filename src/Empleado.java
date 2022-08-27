@@ -4,7 +4,7 @@ public class Empleado {
     //private Profile profile;
     //private Enum;
     //private Enterprise enterprise;
-    //private Transaction[] transaction;
+    //private sprint_ii.Transaction[] transaction;
     //private date updatedAt;
     //private date createdAt;
 }

@@ -1,3 +1,5 @@
+package sprint_ii;
+
 public class Empresa {
     protected String NombreEmpresa;
     protected String DireccionEmpresa;
