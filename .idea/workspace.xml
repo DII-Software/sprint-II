@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3301f115-48d9-4e2a-8e39-01874140d2bb" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/RolEmp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
     </list>
@@ -21,6 +22,7 @@
       <list>
         <option value="Class" />
         <option value="package-info" />
+        <option value="Enum" />
       </list>
     </option>
   </component>

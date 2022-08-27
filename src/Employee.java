@@ -1,20 +1,19 @@
 import sprint_ii.Empresa;
-
 public class Employee {
+    //Atributos
     private String nombre;
     private String correo;
     private Empresa empresa;
-    //private Enum rol;
+    private RolEmp rol;
 
-    public Employee(String nombre, String correo, Empresa empresa){
-        //Falta crear el archivo enum
+    //Constructor
+    public Employee(String nombre, String correo, Empresa empresa, RolEmp rol){
         this.nombre = nombre;
         this.correo = correo;
         this.empresa = empresa;
-        //
+        this.rol = rol;
     }
     //Getters
-    //Falta el getter del rol del empleado
     public String getNombre() {
         return nombre;
     }
@@ -24,9 +23,11 @@ public class Employee {
     public Empresa getEmpresa() {
         return empresa;
     }
+    public RolEmp getRol() {
+        return rol;
+    }
 
     //Setters
-    //Falta el setter del rol del empleado
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -35,6 +36,9 @@ public class Employee {
     }
     public void setEmpresa(Empresa empresa) {
         this.empresa = empresa;
+    }
+    public void setRol(RolEmp rol) {
+        this.rol = rol;
     }
 };
 
